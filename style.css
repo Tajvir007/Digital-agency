@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+
+/* Nav section */
+.nav-container {
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+
+}
+
+/* Banner section */
+
+.banner-container {
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}   
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.primary-color{
+    color: red;
+}
+.btn-primary{
+    background-color: red;
+    color: white;
+}
+
+/* Service section */
+.sevice-container{
+         display: flex;
+}
+.service-details{
+    background-color: black;
+    color: white;
+}
+.btn-secondary{
+    background-color: white;
+    color: orangered;
+}
+/* .service-logo{
+  
+} */
+.icon-details{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    padding-left:15px;
+    padding-right: 15px;
+}
